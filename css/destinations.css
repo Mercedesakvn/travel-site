@@ -1,0 +1,93 @@
+/* Block: main */
+.main {
+    background-size: cover;
+    background-position: center;
+}
+
+/* Element: main with modifier classes for different destinations */
+.main--hawaii {
+    background-image: url('../assets/hawaii.jpg');
+}
+
+.main--iceland {
+    background-image: url('../assets/iceland.jpg');
+}
+
+.main--greece {
+    background-image: url('../assets/greece.jpg');
+}
+
+/* Element: container */
+.main__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 164px;
+}
+
+/* Element: h1 */
+.main__title {
+    font-size: 4.5em;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
+
+/* Element: schedules */
+.main__schedules {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 0 120px;
+}
+
+/* Element: schedule */
+.schedule {
+    flex: 0 0 30%; /* Adjust the width as needed */
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 64px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Modifier: schedule */
+.schedule--1 {
+    margin-right: 16px;
+}
+
+.schedule--2 {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.schedule--3 {
+    margin-left: 16px;
+}
+
+/* Element: schedule title */
+.schedule__title {
+    font-weight: bold;
+}
+
+/* Element: schedule hr */
+.schedule__hr {
+    height: 2px;
+    background-color: black;
+    margin: 15px 0;
+}
+
+/* Element: schedule ul */
+.schedule__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Element: schedule li */
+.schedule__item {
+    background-color: #FEFAF6;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+}

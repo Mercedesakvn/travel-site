@@ -1,0 +1,108 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;
+}
+
+.header .container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.logo a {
+    color: #335576;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav li {
+    margin: 0 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #335576;
+    font-weight: bold;
+}
+
+.nav a.active {
+    text-decoration: underline;
+    text-decoration-color: #DB7A4E;
+}
+
+.main {
+    padding-top: 64px;
+}
+
+.footer {
+    background-color: #FEFAF5;
+    padding: 50px 0;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container h2 {
+    color: #335576;
+    margin-bottom: 38px;
+}
+
+.footer__contact {
+    flex: 0 0 25%; /* Adjust the width as needed */
+}
+
+.footer__social {
+    flex: 0 0 25%; /* Adjust the width as needed */
+}
+
+.footer__hours {
+    flex: 0 0 50%; /* Adjust the width for larger 'hours' div */
+}
+
+.footer__contact span,
+.footer__hours span {
+    display: block;
+    color: #335576;
+}
+
+.footer__contact span.contact__sub-title,
+.footer__hours span.hours__sub-title {
+    color: #DB7A4E;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.hours__items {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 64px;
+}
+
+.footer__social img {
+    height: 30px;
+    margin-right: 10px;
+}
